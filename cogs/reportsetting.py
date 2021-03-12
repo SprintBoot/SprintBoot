@@ -4,7 +4,7 @@ from discord.utils import get
 
 from pymongo import MongoClient
 
-cluster = MongoClient("mongodb+srv://SprintBoot:Avakum132@sprintboot.kghvy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("")
 collection = cluster.settings.settingreport
 
 class reportsetting(commands.Cog):
