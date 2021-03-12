@@ -15,7 +15,7 @@ import json
 import time
 from pymongo import MongoClient
 
-cluster = MongoClient("mongodb+srv://SprintBoot:Avakum132@sprintboot.kghvy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("")
 collection = cluster.settings.settingreport
 
 
